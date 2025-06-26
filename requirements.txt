@@ -1,0 +1,10 @@
+scikit-learn
+numpy
+pandas
+kagglehub
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+requests
+gunicorn

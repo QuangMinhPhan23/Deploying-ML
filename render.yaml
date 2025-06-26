@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: personality-prediction-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server:app -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9
+        
+  - type: web
+    name: personality-prediction-frontend
+    runtime: static
+    buildCommand: chmod +x build_frontend.sh && ./build_frontend.sh
+    staticPublishPath: ./frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        fromService:
+          type: web
+          name: personality-prediction-api
+          envVarKey: RENDER_EXTERNAL_URL
