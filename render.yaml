@@ -8,9 +8,10 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.9
-  
-  - type: static
+        
+  - type: web
     name: personality-prediction-frontend
+    runtime: static
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: ./frontend/build
     envVars:
