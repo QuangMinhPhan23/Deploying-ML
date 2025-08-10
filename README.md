@@ -2,6 +2,12 @@
 
 A complete web application for personality prediction (Extrovert/Introvert) with React frontend, FastAPI backend, and database storage.
 
+<img width="1504" height="712" alt="image" src="https://github.com/user-attachments/assets/45a06931-d7eb-4aa4-b890-3ea5b2161d14" />
+
+<img width="1522" height="645" alt="image" src="https://github.com/user-attachments/assets/1b9884e2-14a9-4611-aaa0-1c162c8d76f9" />
+
+<img width="1267" height="847" alt="image" src="https://github.com/user-attachments/assets/91f920c4-21d1-43e0-a413-fc89476310e2" />
+
 ## Features
 
 - **Interactive Quiz**: Answer questions about your behavior and preferences
@@ -109,6 +115,3 @@ This application can also be deployed on:
 ## Database
 
 The application uses SQLite for data storage. The database file `personality_predictions.db` is created automatically when the application runs for the first time.
-<img width="1504" height="712" alt="image" src="https://github.com/user-attachments/assets/45a06931-d7eb-4aa4-b890-3ea5b2161d14" />
-
-
