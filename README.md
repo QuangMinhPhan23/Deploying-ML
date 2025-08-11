@@ -1,6 +1,6 @@
 # Personality Prediction Web App
 
-A complete web application for personality prediction (Extrovert/Introvert) with React frontend, FastAPI backend, and database storage.
+A complete web application for personality prediction (Extrovert/Introvert) with React frontend, FastAPI backend, and database storage. The website link is on the right. After filling everything if the website does not response immediately, refresh and try one more time (only need to do at most once)
 
 <img width="1504" height="712" alt="image" src="https://github.com/user-attachments/assets/45a06931-d7eb-4aa4-b890-3ea5b2161d14" />
 
@@ -115,3 +115,4 @@ This application can also be deployed on:
 ## Database
 
 The application uses SQLite for data storage. The database file `personality_predictions.db` is created automatically when the application runs for the first time.
+
